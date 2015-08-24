@@ -1,0 +1,38 @@
+$color : #453;
+$amount : 10%;
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.main_head
+{
+    background: darken($color,$amount);
+    background: url(../../img/6chQVU_w7Nw.jpg) no-repeat; /* Добавляем фон */
+    background-size: cover ; /* Масштабируем фон */
+    height: 100px;
+    
+    form{
+        width: 500px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    
+    
+}

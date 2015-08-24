@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.main_head {
+  background: #2b3520;
+  background: url(../../img/6chQVU_w7Nw.jpg) no-repeat;
+  /* ╨Ф╨╛╨▒╨░╨▓╨╗╤П╨╡╨╝ ╤Д╨╛╨╜ */
+  background-size: cover;
+  /* ╨Ь╨░╤Б╤И╤В╨░╨▒╨╕╤А╤Г╨╡╨╝ ╤Д╨╛╨╜ */
+  height: 100px; }
+  .main_head form {
+    width: 500px;
+    margin: 15px auto; }
+
+/*# sourceMappingURL=main.css.map */
